@@ -1,5 +1,5 @@
 <?php
-    $array = array("李金珂","赵日天");
+    $array = array("duuliy","赵日天");
     foreach ($array as $key) {
     	echo $key.'<br/>';
     }

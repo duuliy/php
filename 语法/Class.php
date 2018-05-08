@@ -3,7 +3,7 @@
 /*======================类====================================*/
   $br="<br/>";
 	class Dog{                    //创建类
-		var $dog= '李金珂';
+		var $dog= 'duuliy';
 		function getDogName(){
 			return $this->dog;
 		}
@@ -15,10 +15,10 @@
 /*=============================================================*/
 
 	class Name{
-		public $a ="李金珂";           //公用
+		public $a ="duuliy";           //公用
 		protected $b ="赵日天";        //受保护
 		private $c="嘿嘿黑";           //私有
-		public static $aa="李金珂";    //static表示静态变量   通过  ::直接输入  不用实例化
+		public static $aa="duuliy";    //static表示静态变量   通过  ::直接输入  不用实例化
 		function getB(){
 			return $this->b;
 		}
